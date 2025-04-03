@@ -33,3 +33,13 @@ aiofiles
 python-arq
 uuid
 kvsqlite
+pyrofork
+tgcrypto
+flask
+gunicorn==20.1.0
+aiohttp
+moviepy
+tqdm
+speedtest-cli
+motor
+pymongo
