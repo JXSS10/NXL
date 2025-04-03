@@ -14,7 +14,7 @@ from pyrogram import Client, filters, idle
 from pyrogram.types import Message
 from pyrogram.errors import FloodWait
 from datetime import datetime, timedelta
-from config import token
+
 
 chats_db = {}
 db = redis.Redis(decode_responses=True)
