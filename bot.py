@@ -26,7 +26,7 @@ DevZaid = Client(
     bot_token="7330597115:AAHjAlzJS9KxxYuA2zMRU87dOBT2pScyUdE",
     in_memory=True
 )
-ZAID = token.split(':')[0]
+#ZAID = token.split(':')[0]
 
 
 @DevZaid.on_message(filters.group & filters.media, group=1)
